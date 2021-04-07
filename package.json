@@ -1,0 +1,27 @@
+{
+  "name": "educalis_project",
+  "version": "1.0.0",
+  "description": "Projeto construido sobre o processo seletivo da empresa Residuall.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuryLandau/Educalis.git"
+  },
+  "keywords": [
+    "nodejs",
+    "html",
+    "css",
+    "sass",
+    "ejs",
+    "express"
+  ],
+  "author": "Yury Landau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuryLandau/Educalis/issues"
+  },
+  "homepage": "https://github.com/YuryLandau/Educalis#readme"
+}
