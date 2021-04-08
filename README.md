@@ -7,9 +7,11 @@
     * Estrutura
     * Contribua
     * Footer
+    - smooth scroll
 * Login
     * Criar conta
     * Esqueceu a senha
+    - Senha armazenada em local-storage
 * Dashboard
     * Calendário
     * Boletim
