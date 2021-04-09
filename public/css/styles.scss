@@ -1,7 +1,9 @@
-h1 {
-    background-color: blue;
-}
 
-body {
-    background-color: green;
-}
+@import './helpers/variaveis.scss';
+
+@import './base/normalize.scss';
+@import './base/global.scss';
+
+@import './helpers/mixins.scss';
+
+@import './layout/header.scss';

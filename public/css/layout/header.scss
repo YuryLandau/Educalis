@@ -1,0 +1,41 @@
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem 2rem;
+
+    nav {
+        
+        flex-grow: 1;
+
+        ul {
+            align-items: center;
+            display: flex;
+            font-size: 1.25rem;
+            height: 2.5rem;
+            justify-content: space-around;
+            padding-left: 15rem;
+
+            a {
+                color: #000000;
+                font-weight: 500;
+            }
+
+            li {
+                text-align: center;
+                padding: .5rem 0;
+            }
+
+            .button {
+                background-color: $cor-fundo-button-azul;
+                border-radius: 10px;
+                width: 8.6rem;
+
+                a {
+                    color: $cor-text-button-login;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+:root {
+    color: $cor-texto-geral;
+    font-family: $fonte-geral;
+
+    h2 {
+        color: $cor-titulos-azul;
+    }
+}
+
+body {
+    padding: 0 2.8rem;
+}
+
+.button {
+    box-shadow: 0px 4px 5px rgba(0, 66, 87, 0.3);
+    font-family: $fonte-buttons;
+}
