@@ -1,0 +1,29 @@
+.estrutura {
+
+    background-image: url('/public/img/undraw_education_f8ru.svg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 55%;
+
+    display: flex;
+    flex-direction: column;
+    height: 160vh;
+    padding-bottom: 100vh;
+    padding-top: 2rem;
+    justify-content: space-around;
+
+
+    .estrutura_imagens {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            height: 88%;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+}

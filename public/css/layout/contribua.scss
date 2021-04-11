@@ -1,0 +1,66 @@
+.contribua {
+
+    background-image: url('/public/img/undraw_gifts_btw.svg');
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    background-size: 50%;
+
+    padding-top: 3rem;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    form {
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 64%;
+        width: 100%;
+        
+        * {
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25),
+            inset 0px 2px 5px -1px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            padding: 1rem;
+            width: 30rem;
+        }
+        
+        *:not(.button) {
+            border: 1px solid #000000;
+            
+            font-family: $fonte-geral;
+            
+        }
+        
+        input {
+            height: 4.43rem;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        input::placeholder {
+            color: $cor-placeholder-preto;
+
+        }
+
+        textarea {
+            
+            height: 8.43rem;
+            font-size: 21px;
+        }
+        textarea::placeholder {
+            color: $cor-placeholder-preto;
+
+        }
+
+        .button {
+            background-color: $cor-titulo-vermelho;
+            border-radius: 20px;
+            color: $cor-text-button-branco;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+    }
+}

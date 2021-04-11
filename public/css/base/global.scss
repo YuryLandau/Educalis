@@ -7,11 +7,31 @@
     }
 }
 
+h2 {
+    font-size: $font-size-h2;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1.312rem;
+    line-height: 150%;
+    text-align: justify;
+}
+
 body {
     padding: 0 2.8rem;
+}
+
+.container {
+    padding: 0 $container-padding-horizontal;
 }
 
 .button {
     box-shadow: 0px 4px 5px rgba(0, 66, 87, 0.3);
     font-family: $fonte-buttons;
+    font-size: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
 }

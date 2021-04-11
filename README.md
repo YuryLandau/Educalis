@@ -19,4 +19,10 @@
     * professores
     * Conjuntos
 
+* Tecnologias:
+    - HTML
+    - CSS
+    - EJS
+    - SASS
+
 ## Back-End 📦📊
