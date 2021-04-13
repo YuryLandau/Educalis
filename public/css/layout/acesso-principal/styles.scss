@@ -1,0 +1,18 @@
+
+//variaveis
+@import '../../helpers/variaveis.scss';
+
+//base
+@import '../../base/normalize.scss';
+@import '../../base/global.scss';
+
+//mixins
+@import '../../helpers/mixins.scss';
+
+//styles
+@import '../../layout/acesso-principal/header.scss';
+@import '../../layout/acesso-principal/banner.scss';
+@import '../../layout/acesso-principal/quem-somos.scss';
+@import '../../layout/acesso-principal/estrutura.scss';
+@import '../../layout/acesso-principal/contribua.scss';
+@import '../../layout/acesso-principal/footer.scss';

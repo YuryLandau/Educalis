@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a:link {
+  color: initial;
+  text-decoration: none; }
+
+a:visited {
+  color: initial; }
+
+:root {
+  color: #191919;
+  font-family: "Montserrat", sans-serif; }
+  :root h2 {
+    color: #004257; }
+
+h2 {
+  font-size: 3.06rem;
+  font-weight: normal; }
+
+p {
+  font-size: 1.312rem;
+  line-height: 150%;
+  text-align: justify; }
+
+body {
+  padding: 0 2.8rem; }
+
+.container {
+  padding: 0 2.5rem; }
+
+.button {
+  box-shadow: 0px 4px 5px rgba(0, 66, 87, 0.3);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px; }
+
+.button:hover {
+  cursor: pointer; }
+
+body {
+  padding: 0; }
+
+section {
+  display: flex;
+  height: 100vh;
+  width: 100vw; }
+  section * {
+    box-sizing: border-box; }
+  section .formulario-login_figura {
+    background-color: #F5DCDC; }
+  section .formulario-login_figura, section .formulario-criar-conta_figura, section .formulario-esqueceu-senha_figura {
+    width: 50%; }
+    section .formulario-login_figura img, section .formulario-criar-conta_figura img, section .formulario-esqueceu-senha_figura img {
+      margin-top: 20%;
+      margin-left: 8%;
+      height: 70%;
+      width: 105%; }
+  section .formulario-login, section .formulario-criar-conta, section .formulario-esqueceu-senha {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+    width: 50%; }
+    section .formulario-login form, section .formulario-criar-conta form, section .formulario-esqueceu-senha form {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 40%;
+      width: 60%; }
+      section .formulario-login form *, section .formulario-criar-conta form *, section .formulario-esqueceu-senha form * {
+        border-radius: 20px; }
+      section .formulario-login form input, section .formulario-criar-conta form input, section .formulario-esqueceu-senha form input {
+        border: 1px solid #000000;
+        box-shadow: inset 0px 4px 4px rgba(19, 19, 19, 0.15);
+        font-size: 20px;
+        height: 4.5rem;
+        padding: 1.3rem;
+        width: 100%; }
+      section .formulario-login form .button, section .formulario-criar-conta form .button, section .formulario-esqueceu-senha form .button {
+        background-color: #E70E0E;
+        filter: drop-shadow(0px 4px 4px rgba(231, 14, 14, 0.25));
+        color: #FFFFFF;
+        padding: 1.5rem 0;
+        margin-top: 3rem;
+        text-align: center;
+        width: 100%; }
+    section .formulario-login .conta, section .formulario-criar-conta .conta, section .formulario-esqueceu-senha .conta {
+      display: flex;
+      justify-content: space-between;
+      margin: 5rem auto 0;
+      width: 60%;
+      font-size: 1.3rem; }
+  section .formulario-criar-conta_figura, section .formulario-esqueceu-senha_figura {
+    background-color: #CFE0E5; }
+    section .formulario-criar-conta_figura img, section .formulario-esqueceu-senha_figura img {
+      width: 115%; }
+  section .formulario-criar-conta form {
+    height: 60%; }
+    section .formulario-criar-conta form .button {
+      margin-top: 0; }
+  section .formulario-esqueceu-senha {
+    height: 70%;
+    padding-top: 2rem; }
+    section .formulario-esqueceu-senha form {
+      height: 50%; }
+      section .formulario-esqueceu-senha form .button {
+        margin-top: 0; }
+
+/*# sourceMappingURL=plataforma-login.css.map */
