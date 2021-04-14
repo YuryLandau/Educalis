@@ -1,6 +1,11 @@
 :root {
     color: $cor-texto-geral;
     font-family: $fonte-geral;  
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {

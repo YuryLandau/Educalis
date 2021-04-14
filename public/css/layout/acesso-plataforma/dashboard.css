@@ -30,7 +30,8 @@ a:visited {
 body {
   display: flex;
   height: 100vh;
-  width: 100vw; }
+  width: 100vw;
+  overflow-x: hidden; }
 
 .menu-lateral {
   text-align: center;
@@ -40,16 +41,17 @@ body {
   box-sizing: border-box;
   height: 100%;
   padding-top: 2.5rem;
+  position: fixed;
   width: 12.2rem; }
   .menu-lateral nav {
-    text-align: left;
+    display: flex;
     height: 30%;
     margin-top: 3rem;
-    padding: 0 1rem; }
+    padding: 0 1rem;
+    text-align: left; }
     .menu-lateral nav ul {
       display: flex;
       flex-direction: column;
-      height: 100%;
       justify-content: space-around; }
       .menu-lateral nav ul li a {
         background-repeat: no-repeat;
@@ -67,28 +69,25 @@ body {
         background-image: url("/public/img/icons/boletim.svg"); }
 
 .display {
+  box-sizing: border-box;
   width: 100%;
-  padding: 2rem; }
+  padding: 2rem;
+  padding-left: 14.2rem; }
   .display .display_itens {
     align-items: flex-start;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    padding: 2.875rem;
-    width: 100%; }
+    justify-content: space-between;
+    padding-top: 2.875rem; }
     .display .display_itens h2 {
       font-size: 3.06rem;
       font-weight: normal; }
     .display .display_itens .disciplina {
-      box-sizing: border-box;
-      width: 13.5rem;
-      height: 14rem;
-      margin-right: 1.2rem;
-      margin-bottom: 1.5rem;
       text-align: center; }
     .display .display_itens img {
       box-sizing: border-box;
-      border-radius: 15px;
+      border-radius: 10px;
       padding: .4rem; }
     .display .display_itens p {
       margin-top: .8rem; }

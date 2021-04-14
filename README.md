@@ -25,4 +25,30 @@
     - EJS
     - SASS
 
+* O que falta:
+    - Subir para o Netlify
+
+- Home:
+	- Responsivo
+    - Mudar header ao dar scroll
+	- Botão Login
+	- Smooth Scroll - OK
+
+- Login: 
+    - Botão Voltar
+	- Responsivo
+	- Guardar dados
+
+- Criar conta:
+    - Responsivo
+
+- Esqueceu senha
+	- Responsivo
+
+- Dashboard
+    - Responsivo - OK
+    - Calendário
+    - Boletim
+
+
 ## Back-End 📦📊
