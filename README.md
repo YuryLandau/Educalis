@@ -26,11 +26,10 @@
     - SASS
 
 * O que falta:
-    - Subir para o Netlify
+    - Subir para o Netlify - OK
 
 - Home:
 	- Responsivo
-    - Mudar header ao dar scroll
     - header hover botoes - OK
 	- Botão Login - OK
 	- Smooth Scroll - OK
@@ -53,5 +52,7 @@
     - Calendário
     - Boletim
 
+Sugestões:
+    - Mudar header ao dar scroll
 
 ## Back-End 📦📊
