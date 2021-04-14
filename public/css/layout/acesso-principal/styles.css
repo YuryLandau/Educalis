@@ -10,24 +10,6 @@ a:link {
 a:visited {
   color: initial; }
 
-:root {
-  color: #191919;
-  font-family: "Montserrat", sans-serif; }
-  :root h2 {
-    color: #004257; }
-
-h2 {
-  font-size: 3.06rem;
-  font-weight: normal; }
-
-p {
-  font-size: 1.312rem;
-  line-height: 150%;
-  text-align: justify; }
-
-body {
-  padding: 0 2.8rem; }
-
 .container {
   padding: 0 2.5rem; }
 
@@ -41,6 +23,21 @@ body {
 
 .verde {
   background-color: #009800; }
+
+:root {
+  color: #191919;
+  font-family: "Montserrat", sans-serif; }
+
+body {
+  padding: 0 2.8rem; }
+  body h2 {
+    color: #004257;
+    font-size: 3.06rem;
+    font-weight: normal; }
+  body p {
+    font-size: 1.312rem;
+    line-height: 150%;
+    text-align: justify; }
 
 header {
   align-items: center;

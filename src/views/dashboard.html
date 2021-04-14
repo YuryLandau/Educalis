@@ -7,48 +7,59 @@
     
     <link rel="stylesheet" href="/public/css/layout/acesso-plataforma/dashboard.css">
     
-    <title>Plataforma | Dashboard</title>
+    <title>Educalis | Dashboard</title>
 </head>
 <body>
 
-    <div class="menu">
+    <aside class="menu-lateral">
         <a href="">
-            <img src="" alt="">
+            <img src="/public/img/logo_icon.svg" alt="">
         </a>
         <nav>
             <ul>
-                <li><a href="">Disciplinas</a></li>
-                <li><a href="">Calendário</a></li>
-                <li><a href="">Boletim</a></li>
+                <li><a href="#">Disciplinas</a></li>
+                <li><a href="#">Calendário</a></li>
+                <li><a href="#">Boletim</a></li>
             </ul>
         </nav>
-    </div>
+    </aside>
     
-    <div class="dashboard">
-        <h3>Escolha a disciplina</h3>
-        <div class="dashboard_disciplinas">
-            <a class="disciplina">
-                <img src="" alt="">
-                <p></p>
+    <div class="display">
+        
+        <section class="menu-superior">
+            <div class="botoes">
+                
+                <a href="#">
+                    Professores
+                </a>
+                <a href="/src/views/index.html">
+                        Sair
+                </a>
+            </div>
+        </section>
+
+        <h2>Escolha a disciplina</h2>
+
+        <section class="display_itens">
+            <a href="#" class="disciplina geografia">
+                <img src="/public/img/disciplinas/geografia.svg" alt="">
+
+                    <p>Geografia</p>
             </a>
-            <a class="disciplina">
-                <img src="" alt="">
-                <p></p>
+            <a href="#" class="disciplina matematica">
+                <img src="/public/img/disciplinas/matematica.svg" alt="">
+                <p>Matemática</p>
             </a>
-            <a class="disciplina">
-                <img src="" alt="">
-                <p></p>
+            <a href="#" class="disciplina fisica">
+                <img src="/public/img/disciplinas/fisica.svg" alt="">
+                <p>Física</p>
             </a>
-            <a class="disciplina">
-                <img src="" alt="">
-                <p></p>
+            <a href="#" class="disciplina quimica">
+                <img src="/public/img/disciplinas/quimica.svg" alt="">
+                <p>Química</p>
             </a>
-        </div>
+        </section>
     </div>
 
-    <div class="menu-lateral">
-        <a href="">Professores</a>
-        <a href="">Sair</a>
-    </div>
 </body>
 </html>

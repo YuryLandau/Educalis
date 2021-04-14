@@ -1,0 +1,60 @@
+.display {
+
+    width: 100%;
+    padding: 2rem;
+
+    .display_itens {
+        align-items: flex-start;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2.875rem;
+        width: 100%;
+    
+        h2 {
+            font-size: $font-size-h2;
+            font-weight: normal;
+        }
+    
+        .disciplina {
+            box-sizing: border-box;
+            width: 13.5rem; 
+            height: 14rem;
+
+            margin-right: 1.2rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        img {
+            box-sizing: border-box;
+            border-radius: 15px;
+            padding: .4rem;
+        }
+
+        p {
+            margin-top: .8rem;
+        }
+
+        .geografia {
+            img {
+                padding: 0;
+            }
+
+            p {
+                margin-top: 0;
+            }
+        }
+        .matematica img{
+            background-color: #666666;
+        }
+        .fisica img{
+            
+            background-color: #0098C7;
+        }
+        .quimica img{
+            background-color: #F5DCDC;
+        }
+    }
+}
+

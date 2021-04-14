@@ -1,0 +1,54 @@
+    .menu-lateral {
+        text-align: center;
+        background-color: $cor-fundo-menu-plataforma-azul;
+        border-radius: 0 20px 20px 0;
+        box-shadow: 0px 4px 4px rgba(102, 102, 102, 0.25);
+        box-sizing: border-box;
+        height: 100%;
+        padding-top: 2.5rem;
+        width: 12.2rem;
+        
+        nav {
+            text-align: left;
+            height: 30%;
+            margin-top: 3rem;
+            padding: 0 1rem;
+            ul {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                justify-content: space-around;
+                li{
+                    a {
+                        background-repeat: no-repeat;
+                        background-position-y: center;
+                        display: block;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: normal;
+                        padding: 1rem 0 1rem 3rem;
+                    }
+                    
+                    
+                }
+                
+                li:nth-child(1) {
+                    a {
+                        background-image: url('/public/img/icons/profile.svg');
+                    }
+                }
+                li:nth-child(2) {
+                    a {
+                        background-image: url('/public/img/icons/calendario.svg');
+                    }
+                }
+                li:nth-child(3) {
+                    a {
+                        background-image: url('/public/img/icons/boletim.svg');
+                    }
+                }
+                
+            }
+        }
+    }
+    

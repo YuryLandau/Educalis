@@ -10,9 +10,10 @@
 @import '../../helpers/mixins.scss';
 
 //styles
-@import '../../layout/acesso-principal/header.scss';
-@import '../../layout/acesso-principal/banner.scss';
-@import '../../layout/acesso-principal/quem-somos.scss';
-@import '../../layout/acesso-principal/estrutura.scss';
-@import '../../layout/acesso-principal/contribua.scss';
-@import '../../layout/acesso-principal/footer.scss';
+@import 'main.scss';
+@import 'header.scss';
+@import 'banner.scss';
+@import 'quem-somos.scss';
+@import 'estrutura.scss';
+@import 'contribua.scss';
+@import 'footer.scss';
