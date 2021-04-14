@@ -1,0 +1,30 @@
+
+
+body {
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    a {
+        font-family: $fonte-buttons;
+    }
+
+    .voltar {
+        background-color: $cor-titulo-vermelho;
+        border-radius: $border-radius-buttons-red;
+        box-sizing: border-box;
+        color: $cor-text-button-branco;
+        content: "texto";
+        font-size: 2rem;
+        position: fixed;
+        left: 1rem;
+        top: 1rem;
+        padding: .5rem 1.5rem;
+    }
+
+}

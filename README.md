@@ -11,7 +11,7 @@
 * Login
     * Criar conta
     * Esqueceu a senha
-    - Senha armazenada em local-storage
+    * Senha armazenada em local-storage - OK
 * Dashboard
     * Calendário
     * Boletim
@@ -31,13 +31,15 @@
 - Home:
 	- Responsivo
     - Mudar header ao dar scroll
-	- Botão Login
+    - header hover botoes - OK
+	- Botão Login - OK
 	- Smooth Scroll - OK
+    - Quem-somos cards hover
 
 - Login: 
-    - Botão Voltar
+    - Botão Voltar - OK
 	- Responsivo
-	- Guardar dados
+	- Guardar dados de login - OK
 
 - Criar conta:
     - Responsivo

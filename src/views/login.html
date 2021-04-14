@@ -6,33 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="/public/css/layout/acesso-login/plataforma-login.css">
-    
+
+    <script src="/public/scripts/login.js"></script>
+
     <title>Educalis | Login</title>
 </head>
 <body>
-    <section >
+    
+    <div class="formulario-login_figura">
+        <img src="/public/img/undraw_exams_g4ow.svg" alt="">
+    </div>
+    
+    
+    <div class="formulario-login">
         
-        <div class="formulario-login_figura">
-            <img src="/public/img/undraw_exams_g4ow.svg" alt="">
-        </div>
+        <a href="/src/views/index.html" class="voltar button">&#10094</a>
 
-        <div class="formulario-login">
-            <a class="logo" href="/src/views/index.html" title="Educalis Logo">
-                <img src="/public/img/logo.svg" alt="Educalis Logo">
-            </a>
-    
-            <form action="">
-                <input placeholder="Matrícula" type="text">
-                <input placeholder="Senha" type="password">
-                <a href="/src/views/dashboard.html" class="button">Entrar</a>
-                <a href="/src/views/index.html" class="button">Voltar</a>
-            </form>
-    
-            <div class="conta">
-                <a href="./criar-conta.html">Criar conta</a>
-                <a href="./esqueceu-senha.html">Esqueceu sua senha</a>
-            </div>
+        <a class="logo" href="/src/views/index.html" title="Educalis Logo">
+            <img src="/public/img/logo.svg" alt="Educalis Logo">
+        </a>
+        
+        <form name="login">
+            <input placeholder="Matrícula" name="matricula" type="text">
+            <input placeholder="Senha" name="senha" type="password">
+            <input type="button" class="button" onClick="logar()" value="Entrar">
+        </form>
+        
+        <div class="conta">
+            <a href="./criar-conta.html">Criar conta</a>
+            <a href="./esqueceu-senha.html">Esqueceu sua senha</a>
         </div>
-    </section>
+    </div>
+
 </body>
 </html>

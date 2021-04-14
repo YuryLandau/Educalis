@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="/public/css/layout/acesso-login/plataforma-login.css">
-    
-    <title>Educalis | Login</title>
+    <script src="/public/scripts/criar-conta.js"></script>
+
+
+    <title>Educalis | Criar conta</title>
 </head>
 <body>
-    <section >
-        
+
+        <a href="/src/views/login.html" class="voltar button">&#10094</a>
+
         <div class="formulario-criar-conta_figura">
             <img src="/public/img/Charco_Education.svg" alt="">
         </div>
@@ -21,15 +24,13 @@
                 <img src="/public/img/logo.svg" alt="Educalis Logo">
             </a>
     
-            <form action="">
-                <input placeholder="Nome da Escola" type="text">
-                <input placeholder="Matrícula" type="text">
-                <input placeholder="E-mail" type="email">
-                <input placeholder="Senha" type="password">
-                <a href="#" class="button">Criar Conta</a>
-                <a href="/src/views/login.html" class="button verde">Voltar</a>
-            </form>
+            <form name="novaConta">
+                <input name="nomeEscola" placeholder="Nome da Escola" type="text">
+                <input name="matricula" placeholder="Matrícula" type="text">
+                <input name="email" placeholder="E-mail" type="email">
+                <input name="senha" placeholder="Senha" type="password">
+                <input type="button" class="button" onClick="atribuirValores()" value="Enviar" >
+             </form>
         </div>
-    </section>
 </body>
 </html>
