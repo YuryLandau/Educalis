@@ -42,6 +42,7 @@
 	- Guardar dados de login - OK
 
 - Criar conta:
+    - inputs hover e focus. 
     - Responsivo
 
 - Esqueceu senha

@@ -12,7 +12,7 @@ function atribuirValores(){
     localStorage.setItem("email", document.novaConta.email.value);
     localStorage.setItem("senha", document.novaConta.senha.value);
 
-    novoUsuario.escola = localStorage.getItem("nomeEscola")
+    novoUsuario.nomeEscola = localStorage.getItem("nomeEscola")
     novoUsuario.matricula = localStorage.getItem("matricula")
     novoUsuario.email = localStorage.getItem("email")
     novoUsuario._senha = localStorage.getItem("senha")
