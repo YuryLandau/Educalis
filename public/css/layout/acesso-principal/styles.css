@@ -71,7 +71,7 @@ header {
         padding: .5rem 2.5rem; }
 
 .banner {
-  background-image: url("/img/undraw_studying_s3l7.svg");
+  background-image: url("/static/img/undraw_studying_s3l7.svg");
   background-position-x: right;
   background-position-y: 3.5rem;
   background-size: 50%;
@@ -118,18 +118,18 @@ header {
         font-weight: bold;
         margin-bottom: 1rem; }
       .quem-somos .quem-somos_cards .card:nth-child(1) {
-        background-image: url("/img/fa-solid_rocket.svg"); }
+        background-image: url("/static/img/fa-solid_rocket.svg"); }
       .quem-somos .quem-somos_cards .card:nth-child(2) {
-        background-image: url("/img/fa-solid_eye.svg"); }
+        background-image: url("/static/img/fa-solid_eye.svg"); }
       .quem-somos .quem-somos_cards .card:nth-child(3) {
-        background-image: url("/img/fa-solid_gem.svg"); }
+        background-image: url("/static/img/fa-solid_gem.svg"); }
       .quem-somos .quem-somos_cards .card p {
         font-size: .9rem;
         line-height: 150%;
         text-align: center; }
 
 .estrutura {
-  background-image: url("/img/undraw_education_f8ru.svg");
+  background-image: url("/static/img/undraw_education_f8ru.svg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
@@ -149,7 +149,7 @@ header {
         height: 100%; }
 
 .contribua {
-  background-image: url("/img/undraw_gifts_btw.svg");
+  background-image: url("/static/img/undraw_gifts_btw.svg");
   background-repeat: no-repeat;
   background-position-y: 80%;
   background-size: 50%;
