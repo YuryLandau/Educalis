@@ -74,17 +74,18 @@ body {
   padding: 2rem;
   padding-left: 14.2rem; }
   .display .display_itens {
-    align-items: flex-start;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-top: 2.875rem; }
     .display .display_itens h2 {
       font-size: 3.06rem;
       font-weight: normal; }
     .display .display_itens .disciplina {
-      text-align: center; }
+      text-align: center;
+      margin-right: 3%;
+      margin-bottom: 1%; }
     .display .display_itens img {
       box-sizing: border-box;
       border-radius: 10px;
