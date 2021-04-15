@@ -1,10 +1,11 @@
-.banner {
+#banner {
 
     background-image: url("/static/img/undraw_studying_s3l7.svg");
     background-position-x: right;
     background-position-y: 3.5rem;
     background-size: 50%;
     background-repeat: no-repeat;
+    box-sizing: border-box;
     height: 100vh;
     padding-bottom: 2rem;
     

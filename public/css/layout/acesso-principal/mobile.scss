@@ -1,0 +1,158 @@
+@media screen and (max-width: 900px){
+
+    :root {
+        font-size: 18px;
+    }
+
+    body {
+        padding: 0 0 2rem;
+        width: 100vw;
+
+        h2 {
+            font-size: $font-size-h2_mobile;
+            font-weight: 400;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+
+        p{
+            text-align: left;
+        }
+
+        p+p {
+            margin-top: 3rem;
+        }
+    }
+
+    .container {
+        padding: 0 $container-padding-horizontal_mobile;
+    }
+
+    header {
+        text-align: center;
+        width: 100%;
+        padding: 1rem;
+
+        a {
+            width: 60%;
+            margin: 0 auto;
+
+            svg {
+                width: 100%;
+            }
+        }
+
+        nav {
+            display: none;
+        }
+    }
+
+    #banner {
+        background-image: none;
+        height: initial;
+        margin-bottom: 1rem;
+        width: 100%;
+        
+        h1 {
+            font-size: 1.4rem;
+            font-weight: 400;
+            width: 100%;
+            
+            span {
+                font-size: 2.5rem;
+            }
+        }
+
+        p {
+            text-align: left;
+            width: initial;
+        }
+    }
+
+    #quem-somos {
+        height: initial;
+        border-radius: 0;
+        @include container-padding($container-padding-bottom-menor);
+
+        .quem-somos_texto {
+            margin-top: 0;
+        }
+
+        .quem-somos_cards {
+            flex-wrap: wrap;
+
+            .card {
+                margin: 1rem 1rem;
+            }
+        }
+    }
+
+    #estrutura {
+        background-size: 80%;
+        height: initial;
+        @include container-padding();
+
+    }
+
+    #contribua {
+        height: initial;
+        background-image: none;
+        @include container-padding(0);
+
+        form {
+            margin-top: 2rem;
+            width: 100%;
+
+            * {
+                width: 100%;
+            }
+
+            input {
+                margin-bottom: 2rem;
+            }
+
+            textarea {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    footer {
+        
+        flex-direction: column;
+        padding: 0;
+        position: initial;
+        margin-top: 2rem;
+
+        .linha {
+            display: none;
+        }
+
+        p {
+            margin: 0 auto;
+            text-align: center;
+            font-size: .8rem;
+            position: relative;
+            top: -1rem;
+            left: 2.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #estrutura {
+    
+        .estrutura_imagens {
+            padding: 1rem 0;
+            
+            a {
+                width: 100%;
+                margin: 1rem 0;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

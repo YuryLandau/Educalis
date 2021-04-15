@@ -1,0 +1,3 @@
+@mixin container-padding($bottom:70%){
+    padding: $container-padding-top $container-padding-horizontal_mobile $bottom
+}

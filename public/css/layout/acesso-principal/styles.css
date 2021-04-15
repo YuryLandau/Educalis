@@ -70,39 +70,40 @@ header {
         color: #FFFFFF;
         padding: .5rem 2.5rem; }
 
-.banner {
+#banner {
   background-image: url("/static/img/undraw_studying_s3l7.svg");
   background-position-x: right;
   background-position-y: 3.5rem;
   background-size: 50%;
   background-repeat: no-repeat;
+  box-sizing: border-box;
   height: 100vh;
   padding-bottom: 2rem; }
-  .banner h1 {
+  #banner h1 {
     display: block;
     font-size: 4.125rem;
     font-weight: normal;
     width: 55rem;
     margin-bottom: 3.5rem; }
-    .banner h1 span {
+    #banner h1 span {
       color: #0098C7;
       font-size: 5.5rem; }
-  .banner p {
+  #banner p {
     width: 25rem; }
 
-.quem-somos {
+#quem-somos {
   background-color: #CFE0E5;
   border-radius: 20px;
-  padding: 6rem 2.5rem 4.6rem; }
-  .quem-somos .quem-somos_texto {
+  padding: 5rem 2.5rem 4.6rem; }
+  #quem-somos .quem-somos_texto {
     margin: 3.75rem 0; }
-    .quem-somos .quem-somos_texto p:first-child {
+    #quem-somos .quem-somos_texto p:first-child {
       margin-bottom: 1rem; }
-  .quem-somos .quem-somos_cards {
+  #quem-somos .quem-somos_cards {
     display: flex;
     justify-content: space-around;
     text-align: center; }
-    .quem-somos .quem-somos_cards .card {
+    #quem-somos .quem-somos_cards .card {
       background-color: #FAFAFA;
       background-repeat: no-repeat;
       background-position-x: center;
@@ -113,17 +114,17 @@ header {
       height: 15rem;
       width: 15rem;
       padding: 5rem 1rem; }
-      .quem-somos .quem-somos_cards .card h3 {
+      #quem-somos .quem-somos_cards .card h3 {
         color: #E70E0E;
         font-weight: bold;
         margin-bottom: 1rem; }
-      .quem-somos .quem-somos_cards .card:nth-child(1) {
+      #quem-somos .quem-somos_cards .card:nth-child(1) {
         background-image: url("/static/img/fa-solid_rocket.svg"); }
-      .quem-somos .quem-somos_cards .card:nth-child(2) {
+      #quem-somos .quem-somos_cards .card:nth-child(2) {
         background-image: url("/static/img/fa-solid_eye.svg"); }
-      .quem-somos .quem-somos_cards .card:nth-child(3) {
+      #quem-somos .quem-somos_cards .card:nth-child(3) {
         background-image: url("/static/img/fa-solid_gem.svg"); }
-      .quem-somos .quem-somos_cards .card p {
+      #quem-somos .quem-somos_cards .card p {
         font-size: .9rem;
         line-height: 150%;
         text-align: center; }
@@ -136,15 +137,18 @@ header {
   background-size: 55%;
   display: flex;
   flex-direction: column;
-  height: 160vh;
   padding-bottom: 100vh;
   padding-top: 2rem;
+  position: relative;
   justify-content: space-around; }
   .estrutura .estrutura_imagens {
+    align-items: flex-start;
     display: flex;
-    justify-content: space-between; }
+    flex-wrap: wrap;
+    justify-content: space-around; }
     .estrutura .estrutura_imagens a {
-      height: 88%; }
+      height: 40%;
+      margin: 0 1rem; }
       .estrutura .estrutura_imagens a img {
         height: 100%; }
 
@@ -210,5 +214,105 @@ footer {
     height: 70%;
     width: 2px;
     margin: 0 2rem; }
+
+@media screen and (max-width: 900px) {
+  :root {
+    font-size: 18px; }
+
+  body {
+    padding: 0 0 2rem;
+    width: 100vw; }
+    body h2 {
+      font-size: 1.66rem;
+      font-weight: 400;
+      margin-bottom: 3rem;
+      text-align: center; }
+    body p {
+      text-align: left; }
+    body p + p {
+      margin-top: 3rem; }
+
+  .container {
+    padding: 0 8%; }
+
+  header {
+    text-align: center;
+    width: 100%;
+    padding: 1rem; }
+    header a {
+      width: 60%;
+      margin: 0 auto; }
+      header a svg {
+        width: 100%; }
+    header nav {
+      display: none; }
+
+  #banner {
+    background-image: none;
+    height: initial;
+    margin-bottom: 1rem;
+    width: 100%; }
+    #banner h1 {
+      font-size: 1.4rem;
+      font-weight: 400;
+      width: 100%; }
+      #banner h1 span {
+        font-size: 2.5rem; }
+    #banner p {
+      text-align: left;
+      width: initial; }
+
+  #quem-somos {
+    height: initial;
+    border-radius: 0;
+    padding: 2.5rem 8% 3.5rem; }
+    #quem-somos .quem-somos_texto {
+      margin-top: 0; }
+    #quem-somos .quem-somos_cards {
+      flex-wrap: wrap; }
+      #quem-somos .quem-somos_cards .card {
+        margin: 1rem 1rem; }
+
+  #estrutura {
+    background-size: 80%;
+    height: initial;
+    padding: 2.5rem 8% 70%; }
+
+  #contribua {
+    height: initial;
+    background-image: none;
+    padding: 2.5rem 8% 0; }
+    #contribua form {
+      margin-top: 2rem;
+      width: 100%; }
+      #contribua form * {
+        width: 100%; }
+      #contribua form input {
+        margin-bottom: 2rem; }
+      #contribua form textarea {
+        margin-bottom: 2rem; }
+
+  footer {
+    flex-direction: column;
+    padding: 0;
+    position: initial;
+    margin-top: 2rem; }
+    footer .linha {
+      display: none; }
+    footer p {
+      margin: 0 auto;
+      text-align: center;
+      font-size: .8rem;
+      position: relative;
+      top: -1rem;
+      left: 2.5rem; } }
+@media screen and (max-width: 600px) {
+  #estrutura .estrutura_imagens {
+    padding: 1rem 0; }
+    #estrutura .estrutura_imagens a {
+      width: 100%;
+      margin: 1rem 0; }
+      #estrutura .estrutura_imagens a img {
+        width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

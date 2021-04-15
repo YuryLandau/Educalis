@@ -8,8 +8,6 @@ Projeto ainda em desenvolvimento.
 
 * O que falta:
     - Configurar rotas para arquivos estáticos para o deploy
-	- Responsividade
-    - Versão mobile da página Home
     - lazy loading
     - Calendário
     - Boletim
