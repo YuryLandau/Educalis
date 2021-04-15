@@ -1,10 +1,7 @@
 const express = require('express');
 const server = express();
 const routes = require('./routes')
-const port = 3000;
-
-//Usando template engine
-server.set('views', __dirname + '/views'); //informando para o ejs qual a pasta dos views.
+const port = process.env.PORT || 3000;
 
 //habilitar arquivos estáticos
 server.use(express.static("public"));
