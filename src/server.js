@@ -4,7 +4,6 @@ const routes = require('./routes')
 const port = 3000;
 
 //Usando template engine
-server.set("view engine", "ejs");
 server.set('views', __dirname + '/views'); //informando para o ejs qual a pasta dos views.
 
 //habilitar arquivos estáticos
