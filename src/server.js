@@ -5,6 +5,7 @@ const port = process.env.PORT || 3000;
 
 //habilitar arquivos estáticos
 server.use(express.static("public"));
+console.log(express.static("public"));
 
 //usará as rotas importadas.
 server.use(routes);

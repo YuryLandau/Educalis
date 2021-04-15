@@ -18,8 +18,4 @@ routes.get('/dashboard', (req, res) => {
     return res.sendFile(__dirname + "/views/dashboard.html");
 })
 
-routes.get('/index.html', (req, res) => {
-    return res.redirect("/");
-})
-
 module.exports = routes;
