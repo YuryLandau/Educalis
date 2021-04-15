@@ -1,58 +1,35 @@
 # Educalis 🔬🔭📱
 
-## Front-End 💻
-* Landing Page
-    * Header
-    * Quem somos
-    * Estrutura
-    * Contribua
-    * Footer
-    - smooth scroll
-* Login
-    * Criar conta
-    * Esqueceu a senha
-    * Senha armazenada em local-storage - OK
-* Dashboard
-    * Calendário
-    * Boletim
-    * Matemática
-    * professores
-    * Conjuntos
+Educalis Sistema de Educação
 
-* Tecnologias:
-    - HTML
-    - CSS
-    - EJS
-    - SASS
+Projeto ainda em desenvolvimento.
+
+link: https://educalis-landau.netlify.app
 
 * O que falta:
-    - Subir para o Netlify - OK
-
-- Home:
-	- Responsivo
-    - header hover botoes - OK
-	- Botão Login - OK
-	- Smooth Scroll - OK
-    - Quem-somos cards hover
-
-- Login: 
-    - Botão Voltar - OK
-	- Responsivo
-	- Guardar dados de login - OK
-
-- Criar conta:
-    - inputs hover e focus. 
-    - Responsivo
-
-- Esqueceu senha
-	- Responsivo
-
-- Dashboard
-    - Responsivo - OK
+    - Configurar rotas para arquivos estáticos
+	- Responsividade
+    - Versão mobile da página Home
     - Calendário
     - Boletim
+    - Professores
+
+## Front-End 💻
+
+* Tecnologias envolvidas:
+    - HTML
+    - CSS
+    - JavaScript
+    - SASS
+
+* Para rodar a aplicação:
+    - acessar a pasta /src em seu terminal e aplicar o seguinte comando: npm start
+    - No navegador, acessar "localhost:3000", onde a aplicação estará rodando.
+
+
 
 Sugestões:
     - Mudar header ao dar scroll
+    - Animações em CSS no Dashboard
 
 ## Back-End 📦📊
