@@ -62,11 +62,11 @@ body {
         font-weight: normal;
         padding: 1rem 0 1rem 3rem; }
       .menu-lateral nav ul li:nth-child(1) a {
-        background-image: url("/img/icons/profile.svg"); }
+        background-image: url("/static/img/icons/profile.svg"); }
       .menu-lateral nav ul li:nth-child(2) a {
-        background-image: url("/img/icons/calendario.svg"); }
+        background-image: url("/static/img/icons/calendario.svg"); }
       .menu-lateral nav ul li:nth-child(3) a {
-        background-image: url("/img/icons/boletim.svg"); }
+        background-image: url("/static/img/icons/boletim.svg"); }
 
 .display {
   box-sizing: border-box;
@@ -123,8 +123,8 @@ body {
       text-align: center;
       width: 5rem; }
     .menu-superior .botoes a:nth-child(1) {
-      background-image: url("/img/icons/read.svg"); }
+      background-image: url("/static/img/icons/read.svg"); }
     .menu-superior .botoes a:nth-child(2) {
-      background-image: url("/img/icons/exit.svg"); }
+      background-image: url("/static/img/icons/exit.svg"); }
 
 /*# sourceMappingURL=dashboard.css.map */
