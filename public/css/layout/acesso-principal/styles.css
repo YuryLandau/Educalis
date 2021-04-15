@@ -134,7 +134,7 @@ header {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
-  background-size: 55%;
+  background-size: 70%;
   display: flex;
   flex-direction: column;
   padding-bottom: 100vh;
@@ -142,15 +142,16 @@ header {
   position: relative;
   justify-content: space-around; }
   .estrutura .estrutura_imagens {
-    align-items: flex-start;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; }
+    padding: 1rem 0;
+    justify-content: space-evenly; }
     .estrutura .estrutura_imagens a {
-      height: 40%;
-      margin: 0 1rem; }
+      height: 30%;
+      margin: 1rem 1%; }
       .estrutura .estrutura_imagens a img {
-        height: 100%; }
+        width: auto; }
 
 .contribua {
   background-image: url("/static/img/undraw_gifts_btw.svg");
@@ -216,6 +217,89 @@ footer {
     margin: 0 2rem; }
 
 @media screen and (max-width: 900px) {
+  header {
+    text-align: center;
+    width: 100%;
+    padding: 1rem; }
+    header a {
+      width: 60%;
+      margin: 0 auto; }
+      header a svg {
+        width: 100%; }
+    header nav {
+      display: none; } }
+@media screen and (max-width: 900px) {
+  #banner {
+    background-image: none;
+    height: initial;
+    margin-bottom: 1rem;
+    width: 100%; }
+    #banner h1 {
+      font-size: 1.4rem;
+      font-weight: 400;
+      width: 100%; }
+      #banner h1 span {
+        font-size: 2.5rem; }
+    #banner p {
+      text-align: left;
+      width: initial; } }
+@media screen and (max-width: 900px) {
+  #quem-somos {
+    height: initial;
+    border-radius: 0;
+    padding: 2.5rem 8% 3.5rem; }
+    #quem-somos .quem-somos_texto {
+      margin-top: 0; }
+    #quem-somos .quem-somos_cards {
+      flex-wrap: wrap; }
+      #quem-somos .quem-somos_cards .card {
+        margin: 1rem 1rem; } }
+@media screen and (max-width: 900px) {
+  #estrutura {
+    background-size: 80%;
+    height: initial;
+    padding: 2.5rem 8% 70%; } }
+@media screen and (max-width: 600px) {
+  #estrutura .estrutura_imagens {
+    padding: 1rem 0; }
+    #estrutura .estrutura_imagens a {
+      width: 100%;
+      margin: 1rem 0; }
+      #estrutura .estrutura_imagens a img {
+        width: 100%; } }
+@media screen and (min-width: 1300px) {
+  #estrutura {
+    background-size: 57%; } }
+@media screen and (max-width: 900px) {
+  #contribua {
+    height: initial;
+    background-image: none;
+    padding: 2.5rem 8% 0; }
+    #contribua form {
+      margin-top: 2rem;
+      width: 100%; }
+      #contribua form * {
+        width: 100%; }
+      #contribua form input {
+        margin-bottom: 2rem; }
+      #contribua form textarea {
+        margin-bottom: 2rem; } }
+@media screen and (max-width: 900px) {
+  footer {
+    flex-direction: column;
+    padding: 0;
+    position: initial;
+    margin-top: 2rem; }
+    footer .linha {
+      display: none; }
+    footer p {
+      margin: 0 auto;
+      text-align: center;
+      font-size: .8rem;
+      position: relative;
+      top: -1rem;
+      left: 2.5rem; } }
+@media screen and (max-width: 900px) {
   :root {
     font-size: 18px; }
 
@@ -233,86 +317,6 @@ footer {
       margin-top: 3rem; }
 
   .container {
-    padding: 0 8%; }
-
-  header {
-    text-align: center;
-    width: 100%;
-    padding: 1rem; }
-    header a {
-      width: 60%;
-      margin: 0 auto; }
-      header a svg {
-        width: 100%; }
-    header nav {
-      display: none; }
-
-  #banner {
-    background-image: none;
-    height: initial;
-    margin-bottom: 1rem;
-    width: 100%; }
-    #banner h1 {
-      font-size: 1.4rem;
-      font-weight: 400;
-      width: 100%; }
-      #banner h1 span {
-        font-size: 2.5rem; }
-    #banner p {
-      text-align: left;
-      width: initial; }
-
-  #quem-somos {
-    height: initial;
-    border-radius: 0;
-    padding: 2.5rem 8% 3.5rem; }
-    #quem-somos .quem-somos_texto {
-      margin-top: 0; }
-    #quem-somos .quem-somos_cards {
-      flex-wrap: wrap; }
-      #quem-somos .quem-somos_cards .card {
-        margin: 1rem 1rem; }
-
-  #estrutura {
-    background-size: 80%;
-    height: initial;
-    padding: 2.5rem 8% 70%; }
-
-  #contribua {
-    height: initial;
-    background-image: none;
-    padding: 2.5rem 8% 0; }
-    #contribua form {
-      margin-top: 2rem;
-      width: 100%; }
-      #contribua form * {
-        width: 100%; }
-      #contribua form input {
-        margin-bottom: 2rem; }
-      #contribua form textarea {
-        margin-bottom: 2rem; }
-
-  footer {
-    flex-direction: column;
-    padding: 0;
-    position: initial;
-    margin-top: 2rem; }
-    footer .linha {
-      display: none; }
-    footer p {
-      margin: 0 auto;
-      text-align: center;
-      font-size: .8rem;
-      position: relative;
-      top: -1rem;
-      left: 2.5rem; } }
-@media screen and (max-width: 600px) {
-  #estrutura .estrutura_imagens {
-    padding: 1rem 0; }
-    #estrutura .estrutura_imagens a {
-      width: 100%;
-      margin: 1rem 0; }
-      #estrutura .estrutura_imagens a img {
-        width: 100%; } }
+    padding: 0 8%; } }
 
 /*# sourceMappingURL=styles.css.map */

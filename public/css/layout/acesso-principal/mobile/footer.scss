@@ -1,0 +1,22 @@
+@media screen and (max-width: 900px){
+    footer {
+        
+        flex-direction: column;
+        padding: 0;
+        position: initial;
+        margin-top: 2rem;
+
+        .linha {
+            display: none;
+        }
+
+        p {
+            margin: 0 auto;
+            text-align: center;
+            font-size: .8rem;
+            position: relative;
+            top: -1rem;
+            left: 2.5rem;
+        }
+    }
+}

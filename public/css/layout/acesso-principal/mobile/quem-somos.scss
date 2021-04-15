@@ -1,0 +1,19 @@
+@media screen and (max-width: 900px){
+    #quem-somos {
+        height: initial;
+        border-radius: 0;
+        @include container-padding($container-padding-bottom-menor);
+
+        .quem-somos_texto {
+            margin-top: 0;
+        }
+
+        .quem-somos_cards {
+            flex-wrap: wrap;
+
+            .card {
+                margin: 1rem 1rem;
+            }
+        }
+    }
+}
