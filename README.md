@@ -18,6 +18,7 @@ Projeto ainda em desenvolvimento.
 
 * Tecnologias envolvidas:
     - HTML
+    - EJS como view engine
     - CSS
     - JavaScript
     - SASS

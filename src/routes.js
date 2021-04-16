@@ -2,20 +2,20 @@ const express = require('express');
 const routes = express.Router();
 
 routes.get('/', (req, res) => {
-    return res.sendFile(__dirname + "/views/index.html");
+    return res.render("index");
 })
 routes.get('/login', (req, res) => {
-    return res.sendFile(__dirname + "/views/login.html");
+    return res.render("login");
 })
 routes.get('/esqueceu-senha', (req, res) => {
-    return res.sendFile(__dirname + "/views/esqueceu-senha.html");
+    return res.render("esqueceu-senha");
 })
 routes.get('/criar-conta', (req, res) => {
-    return res.sendFile(__dirname + "/views/criar-conta.html");
+    return res.render("criar-conta");
 })
 
 routes.get('/dashboard', (req, res) => {
-    return res.sendFile(__dirname + "/views/dashboard.html");
+    return res.render("dashboard");
 })
 
 module.exports = routes;
