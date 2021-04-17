@@ -7,30 +7,34 @@ Afim de democratizar o acesso à educação, o sistema de ensino da Educalis tra
 Projeto ainda em desenvolvimento.
 
 * O que falta:
-    - Configurar rotas para arquivos estáticos para o deploy
-    - lazy loading
-    - Calendário
-    - Boletim
-    - Professores
+    * Configurar rotas para arquivos estáticos para o deploy
+    * Distribuir modulos 
+    * Adaptar para outros navegadores
+    * lazy loading
+    * Expandir fotos on hover e on click
+    * Calendário
+    * Boletim
+    * Professores
+
     - Back-end
 
 ## Front-End 💻
 
 * Tecnologias envolvidas:
-    - HTML
-    - EJS como view engine
-    - CSS
-    - JavaScript
-    - SASS
-    - NodeJS com Express
+    * HTML
+    * EJS como view engine
+    * CSS
+    * JavaScript
+    * SASS
+    * NodeJS com Express
 
 * Para rodar a aplicação:
-    - clonar o repositório para uma pasta local.
-    - acessar a pasta /src em seu terminal e aplicar o seguinte comando: npm start
-    - No navegador, acessar "localhost:3000", onde a aplicação estará rodando.
+    * clonar o repositório para uma pasta local.
+    * acessar a pasta /src em seu terminal e aplicar o seguinte comando: npm start
+    * No navegador, acessar "localhost:3000", onde a aplicação estará rodando.
 
 Sugestões:
-    - Mudar header ao dar scroll
-    - Animações em CSS no Dashboard
+    * Mudar header ao dar scroll
+    * Animações em CSS no Dashboard
 
 ## Back-End 📦📊

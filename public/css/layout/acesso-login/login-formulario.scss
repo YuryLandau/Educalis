@@ -49,7 +49,7 @@
         
         input:not(.button) {
             border: 1px solid $cor-link-geral;
-            box-shadow: inset 0px 4px 4px rgba(19, 19, 19, 0.15);
+            @include box-shadow_inputs();
             font-size: $font-size-inputs;
             height: 3.5rem;
             padding: 1.3rem;
@@ -59,7 +59,7 @@
         .button {
             background-color: $cor-titulo-vermelho;
             border: none;
-            filter: drop-shadow(0px 4px 4px rgba(231, 14, 14, 0.25));
+            @include box-shadow_red();
             color: $cor-text-button-branco;
             padding: 1rem 0;
             margin-top: 2rem;

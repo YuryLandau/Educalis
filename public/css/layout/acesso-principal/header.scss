@@ -33,6 +33,7 @@ header {
                 background-color: $cor-fundo-button-azul;
                 border-radius: $border-radius-button-header;
                 box-sizing: border-box;
+                @include box-shadow_header();
                 color: $cor-text-button-branco;
                 padding: .5rem 2.5rem;
             }

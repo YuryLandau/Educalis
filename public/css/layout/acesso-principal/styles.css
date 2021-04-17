@@ -14,7 +14,6 @@ a:visited {
   padding: 0 2.5rem; }
 
 .button {
-  box-shadow: 0px 4px 5px rgba(0, 66, 87, 0.3);
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem; }
 
@@ -67,6 +66,7 @@ header {
         background-color: #0098C7;
         border-radius: 10px;
         box-sizing: border-box;
+        box-shadow: 0px 4px 5px rgba(0, 66, 87, 0.3);
         color: #FFFFFF;
         padding: .5rem 2.5rem; }
 
@@ -112,8 +112,9 @@ header {
       box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25), inset 0px 2px 5px -1px rgba(0, 0, 0, 0.25);
       box-sizing: border-box;
       height: 15rem;
-      width: 15rem;
-      padding: 5rem 1rem; }
+      transition-duration: 500ms;
+      padding: 5rem 1rem;
+      width: 15rem; }
       #quem-somos .quem-somos_cards .card h3 {
         color: #E70E0E;
         font-weight: bold;
@@ -128,6 +129,8 @@ header {
         font-size: .9rem;
         line-height: 150%;
         text-align: center; }
+    #quem-somos .quem-somos_cards .card:hover {
+      transform: scale(1.2); }
 
 .estrutura {
   background-image: url("/static/img/undraw_education_f8ru.svg");
@@ -149,9 +152,13 @@ header {
     justify-content: space-evenly; }
     .estrutura .estrutura_imagens a {
       height: 30%;
-      margin: 1rem 1%; }
+      margin: 1rem 1%;
+      transition-duration: 500ms; }
       .estrutura .estrutura_imagens a img {
+        box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25), inset 0px 2px 5px -1px rgba(0, 0, 0, 0.25);
         width: auto; }
+    .estrutura .estrutura_imagens a:hover {
+      transform: scale(1.1); }
 
 .contribua {
   background-image: url("/static/img/undraw_gifts_btw.svg");
@@ -173,7 +180,7 @@ header {
     .contribua form * {
       box-sizing: border-box;
       box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25), inset 0px 2px 5px -1px rgba(0, 0, 0, 0.25);
-      border-radius: 10px;
+      border-radius: 15px;
       padding: 1rem;
       width: 30rem; }
     .contribua form *:not(.button) {

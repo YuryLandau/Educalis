@@ -20,6 +20,7 @@ body {
         background-color: $cor-titulo-vermelho;
         border-radius: $border-radius-buttons-red;
         box-sizing: border-box;
+        @include box-shadow_red();
         color: $cor-text-button-branco;
         content: "texto";
         font-size: 2rem;

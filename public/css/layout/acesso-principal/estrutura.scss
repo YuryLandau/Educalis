@@ -23,10 +23,16 @@
         a {
             height: 30%;
             margin: 1rem 1%;
-
+            transition-duration: 500ms;
+            
             img {
+                @include box-shadow_cards();
                 width: auto;
             }
+        }
+
+        a:hover {
+            transform: scale(1.1);
         }
     }
 }
