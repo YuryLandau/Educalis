@@ -12,6 +12,7 @@ Projeto ainda em desenvolvimento.
     * Adaptar para outros navegadores
     * lazy loading
     * Expandir fotos on hover e on click
+    * Autenticação formulários
     * Calendário
     * Boletim
     * Professores
