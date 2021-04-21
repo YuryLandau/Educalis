@@ -14,11 +14,18 @@ a:visited {
   padding: 0 2.5rem; }
 
 .button {
+  border: none;
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem; }
 
 .button:hover {
   cursor: pointer; }
+
+.button_acessos {
+  filter: drop-shadow(0px 4px 4px rgba(231, 14, 14, 0.25));
+  transition-duration: 500ms; }
+  .button_acessos:hover {
+    transform: scale(1.05); }
 
 .verde {
   background-color: #009800; }
@@ -55,20 +62,25 @@ header {
       font-size: 1.25rem;
       justify-content: space-around;
       padding-left: 4rem; }
-      header nav ul a {
-        color: #000000;
-        font-weight: 500; }
-      header nav ul a:hover {
-        text-decoration: underline; }
       header nav ul li {
         text-align: center; }
-      header nav ul .button {
-        background-color: #0098C7;
-        border-radius: 10px;
-        box-sizing: border-box;
-        box-shadow: 0px 4px 5px rgba(0, 66, 87, 0.3);
-        color: #FFFFFF;
-        padding: .5rem 2.5rem; }
+        header nav ul li:focus {
+          border: none; }
+        header nav ul li a {
+          color: #000000;
+          font-weight: 500; }
+        header nav ul li a:hover {
+          text-decoration: underline; }
+        header nav ul li .button {
+          background-color: #0098C7;
+          border-radius: 10px;
+          box-sizing: border-box;
+          box-shadow: 0px 4px 5px rgba(0, 66, 87, 0.3);
+          color: #FFFFFF;
+          padding: .5rem 2.5rem; }
+          header nav ul li .button:hover {
+            transition-duration: 500ms;
+            transform: scale(1.05); }
 
 #banner {
   background-image: url("/static/img/undraw_studying_s3l7.svg");

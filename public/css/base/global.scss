@@ -4,18 +4,22 @@
 }
 
 .button {
+    border: none;
     font-family: $fonte-buttons;
     font-size: $font-size-buttons;
-    transition-duration: 500ms;
 }
 
 .button:hover {
     cursor: pointer;
-    transform: scale(1.05);
 }
 
 .button_acessos {
     @include box-shadow_red();
+    transition-duration: 500ms;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 }
 
 .verde {

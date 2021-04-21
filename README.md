@@ -14,8 +14,6 @@ Projeto ainda em desenvolvimento.
     * Expandir fotos -on hover- e on click
     * Autenticação formulários
     * Calendário
-    * Boletim
-    * Professores
 
     - Back-end
 

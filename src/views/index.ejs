@@ -41,7 +41,7 @@
                 <li><a href="#quem-somos">Quem somos</a></li>
                 <li><a href="#estrutura">Estrutura</a></li>
                 <li><a href="#contribua">Contribua</a></li>
-                <li><a class="button" href="/login">Login</a></li>
+                <li><button class="button" onClick="document.location.href = '/login'">Login</button></li>
             </ul>
         </nav>
     </header>
@@ -110,7 +110,7 @@
                 <input placeholder="Nome" type="text">
                 <input placeholder="Cidade/Estado" type="text">
                 <textarea placeholder="Digite aqui como você gostaria de contribuir" type="text"></textarea>
-                <a href="" class="button">Enviar</a>
+                <%- include('parts/Button', { text:'Enviar' }) %>
             </form>
         </section>
     </main>

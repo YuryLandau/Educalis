@@ -6,7 +6,6 @@ header {
     padding: 1.3rem 2rem;
 
     nav {
-        
         width: 60%;
 
         ul {
@@ -16,26 +15,31 @@ header {
             justify-content: space-around;
             padding-left: 4rem;
 
-            a {
-                color: #000000;
-                font-weight: 500;
-            }
-
-            a:hover {
-                text-decoration: underline;
-            }
-
             li {
                 text-align: center;
-            }
 
-            .button {
-                background-color: $cor-fundo-button-azul;
-                border-radius: $border-radius-button-header;
-                box-sizing: border-box;
-                @include box-shadow_header();
-                color: $cor-text-button-branco;
-                padding: .5rem 2.5rem;
+                a {
+                    color: #000000;
+                    font-weight: 500;
+                }
+    
+                a:hover {
+                    text-decoration: underline;
+                }
+
+                .button {
+                    background-color: $cor-fundo-button-azul;
+                    border-radius: $border-radius-button-header;
+                    box-sizing: border-box;
+                    @include box-shadow_header();
+                    color: $cor-text-button-branco;
+                    padding: .5rem 2.5rem;
+    
+                    &:hover {
+                        transition-duration: 500ms;
+                        transform: scale(1.05);
+                    }
+                }
             }
         }
     }
