@@ -13,18 +13,21 @@
             display: flex;
             height: 30%;
             margin-top: 3rem;
-            padding: 0 1rem;
             text-align: left;
-
+            
             ul {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
-
+                width: 100%;
+                
                 li{
+                    box-sizing: border-box;
+                    padding: 0 1rem;
                     a {
                         background-repeat: no-repeat;
                         background-position-y: center;
+                        color: $cor-text-button-branco;
                         display: block;
                         font-size: 20px;
                         font-style: normal;
@@ -47,6 +50,11 @@
                     a {
                         background-image: url('/static/img/icons/boletim.svg');
                     }
+                }
+                
+                li:hover {
+                    cursor:pointer;
+                    background-color: $cor-hover-menu-plataforma-azul;
                 }
                 
             }

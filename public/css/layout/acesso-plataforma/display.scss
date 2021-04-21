@@ -1,32 +1,41 @@
 .display {
 
     box-sizing: border-box;
-    width: 100%;
+    overflow: hidden;
+    height: 100vh;
     padding: 2rem;
     padding-left: 14.2rem;
+    width: 100%;
+
+    h2 {
+        font-size: $font-size-h2;
+        font-weight: normal;
+        margin-bottom: 1rem;
+    }
 
     .display_itens {
+        overflow: auto;
         box-sizing: border-box;
-        display: flex;
+        display: none;
         flex-wrap: wrap;
+        height: 70vh;
         justify-content: flex-start;
         padding-top: 2.875rem;
     
-        h2 {
-            font-size: $font-size-h2;
-            font-weight: normal;
-        }
+        
+    }
 
-        .disciplina {
+    #disciplinas {     
+        .disciplinas_materia {
             text-align: center;
-            margin-right: 3%;
-            margin-bottom: 1%;
-        }
+            margin-right: 5%;
+            margin-bottom: 2%;
 
-        img {
-            box-sizing: border-box;
-            border-radius: 10px;
-            padding: .4rem;
+            img {
+                box-sizing: border-box;
+                border-radius: $border-radius-cards;
+                padding: .4rem;
+            }
         }
 
         p {
@@ -51,6 +60,39 @@
         }
         .quimica img{
             background-color: #F5DCDC;
+        }
+    }
+
+    #calendario {
+        display: none;
+        border: 1px solid black;
+    }
+
+    #boletim{
+
+        display: none;
+
+        h3 {
+            font-size: $font-size-h3;
+            line-height: 2rem;
+        }
+
+        .boletim_materia {
+            @include box-shadow_cards();
+
+            border-radius: $border-radius-cards;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-right: 3%;
+            margin-bottom: 3%;
+            padding: 3rem 4.5rem;
+            text-align: center;
+
+            .boletim_professor {
+                margin: 2rem 0;
+            }
         }
     }
 }

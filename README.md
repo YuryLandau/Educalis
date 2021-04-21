@@ -10,8 +10,8 @@ Projeto ainda em desenvolvimento.
     * Configurar rotas para arquivos estáticos para o deploy
     * Distribuir modulos 
     * Adaptar para outros navegadores
-    * lazy loading
-    * Expandir fotos on hover e on click
+    - * lazy loading
+    * Expandir fotos -on hover- e on click
     * Autenticação formulários
     * Calendário
     * Boletim
