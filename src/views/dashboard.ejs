@@ -7,6 +7,8 @@
     
     <link rel="stylesheet" href="/static/css/layout/acesso-plataforma/dashboard.css">
     
+    <script src="/static/scripts/dashboard.js"></script>
+
     <title>Educalis | Dashboard</title>
 </head>
 <body>
@@ -17,14 +19,14 @@
         </a>
         <nav>
             <ul>
-                <li><a href="#">Disciplinas</a></li>
-                <li><a href="#">Calendário</a></li>
-                <li><a href="#">Boletim</a></li>
+                <li onClick="disciplina()"><a>Disciplinas</a></li>
+                <li onClick="calendario()"><a>Calendário</a></li>
+                <li onClick="boletim()"><a>Boletim</a></li>
             </ul>
         </nav>
     </aside>
     
-    <div class="display">
+    <div id="display" class="display">
         
         <section class="menu-superior">
             <div class="botoes">
@@ -36,30 +38,89 @@
             </div>
         </section>
 
-        <h2>Escolha a disciplina</h2>
+        <h2></h2>
 
-        <section class="display_itens">
-            <a href="#" class="disciplina geografia">
+        <section id="disciplinas" class="display_itens">
+            <a href="#" class="disciplinas_materia geografia">
                 <img src="/static/img/disciplinas/geografia.svg" alt="">
 
                     <p>Geografia</p>
             </a>
-            <a href="#" class="disciplina matematica">
+            <a href="#" class="disciplinas_materia matematica">
                 <img src="/static/img/disciplinas/matematica.svg" alt="">
                 <p>Matemática</p>
             </a>
-            <a href="#" class="disciplina fisica">
+            <a href="#" class="disciplinas_materia fisica">
                 <img src="/static/img/disciplinas/fisica.svg" alt="">
                 <p>Física</p>
             </a>
-            <a href="#" class="disciplina quimica">
+            <a href="#" class="disciplinas_materia quimica">
                 <img src="/static/img/disciplinas/quimica.svg" alt="">
                 <p>Química</p>
             </a>
-            <a href="#" class="disciplina quimica">
+            <a href="#" class="disciplinas_materia quimica">
                 <img src="/static/img/disciplinas/quimica.svg" alt="">
                 <p>História</p>
             </a>
+        </section>
+
+        <section id="calendario" class="display_itens">
+            <table>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                    <td>D</td>
+                </tr>
+                    
+            </table>
+        </section>
+
+        <section id="boletim" class="display_itens">
+            <a href="#" class="boletim_materia">
+                <h3>MATERIA</h3>
+                <p class="boletim_professor">Professor A</p>
+                <p>Nota</p>
+            </a>
+            <a href="#" class="boletim_materia">
+                <h3>MATERIA</h3>
+                <p class="boletim_professor">Professor A</p>
+                <p>Nota</p>
+            </a>
+            <a href="#" class="boletim_materia">
+                <h3>MATERIA</h3>
+                <p class="boletim_professor">Professor A</p>
+                <p>Nota</p>
+            </a>
+            <a href="#" class="boletim_materia">
+                <h3>MATERIA</h3>
+                <p>Professor A</p>
+                <p>Nota</p>
+            </a>
+            <a href="#" class="boletim_materia">
+                <h3>MATERIA</h3>
+                <p class="boletim_professor">Professor A</p>
+                <p>Nota</p>
+            </a>
+            
         </section>
     </div>
 
