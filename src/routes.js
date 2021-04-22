@@ -1,10 +1,5 @@
 const express = require('express');
 const routes = express.Router();
-var objeto = { 
-    primeiro:"Disciplina",
-    segundo:"Calendário",
-    terceiro:"Boletim" 
-}
 
 routes.get('/', (req, res) => {
     return res.render("index");
@@ -20,7 +15,7 @@ routes.get('/criar-conta', (req, res) => {
 })
 
 routes.get('/dashboard', (req, res) => {
-    return res.render("dashboard", { objeto });
+    return res.render("dashboard");
 })
 
 module.exports = routes;

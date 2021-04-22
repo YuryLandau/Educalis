@@ -35,5 +35,7 @@ Projeto ainda em desenvolvimento.
 Sugestões:
     * Mudar header ao dar scroll
     * Animações em CSS no Dashboard
+    * Tela de carregamento para a plataforma.
+    * Mudar o etilo da barra de rolagem.
 
 ## Back-End 📦📊

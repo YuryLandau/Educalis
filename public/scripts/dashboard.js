@@ -57,3 +57,21 @@ function boletim(){
     displayItens.style.display = "flex";
     h2.innerText = "Boletim";
 }
+
+function matematica(){
+    notDisplay();
+    const displayItens = document.getElementById("disciplina_matematica");
+    let h2 = document.querySelector("h2");
+
+    displayItens.style.display = "flex";
+    h2.innerText = "Matemática";
+}
+
+function professores(){
+    notDisplay();
+    const displayItens = document.getElementById("professores");
+    let h2 = document.querySelector("h2");
+
+    displayItens.style.display = "flex";
+    h2.innerText = "Professores";
+}

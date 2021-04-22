@@ -20,9 +20,7 @@
         flex-wrap: wrap;
         height: 70vh;
         justify-content: flex-start;
-        padding-top: 2.875rem;
-    
-        
+        padding-top: 2.875rem;   
     }
 
     #disciplinas {     
@@ -63,6 +61,25 @@
         }
     }
 
+    #professores {
+
+        .professor {
+            @include box-shadow_cards();
+            @include display-align_padrao();  
+        }
+    }
+
+    #disciplina_matematica {
+        h4 {
+            font-size: $font-size-h4;
+        }
+
+        .materia {
+            @include box-shadow_cards();
+            @include display-align_padrao();  
+        }
+    }
+
     #calendario {
         display: none;
         border: 1px solid black;
@@ -79,16 +96,7 @@
 
         .boletim_materia {
             @include box-shadow_cards();
-
-            border-radius: $border-radius-cards;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            margin-right: 3%;
-            margin-bottom: 3%;
-            padding: 3rem 4.5rem;
-            text-align: center;
+            @include display-align_padrao();            
 
             .boletim_professor {
                 margin: 2rem 0;
