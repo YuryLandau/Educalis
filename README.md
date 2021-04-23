@@ -9,13 +9,16 @@ Projeto ainda em desenvolvimento.
 * O que falta:
     * Configurar rotas para arquivos estáticos para o deploy
     * Distribuir modulos 
-    * Adaptar para outros navegadores
-    - * lazy loading
     * Expandir fotos -on hover- e on click
     * Autenticação formulários
     * Calendário
 
     - Back-end
+
+* Corrigir:
+    * Adaptar para outros navegadores
+    * Imagens nas páginas de acessos
+
 
 ## Front-End 💻
 
@@ -29,13 +32,15 @@ Projeto ainda em desenvolvimento.
 
 * Para rodar a aplicação:
     * clonar o repositório para uma pasta local.
-    * acessar a pasta /src em seu terminal e aplicar o seguinte comando: npm start
-    * No navegador, acessar "localhost:3000", onde a aplicação estará rodando.
+    * Algumas dependências são necessárias para rodar a aplicação, portanto execute `npm install` antes de executá-la.
+    * Em seu terminal e executar o comando `npm start`.
+    * No navegador, acessar [http://localhost:3000](http://localhost:3000), onde a aplicação estará rodando.
 
 Sugestões:
-    * Mudar header ao dar scroll
-    * Animações em CSS no Dashboard
+    * lazy loading
+    * Mudar header ao dar scroll.
+    * Animações em CSS no Dashboard.
     * Tela de carregamento para a plataforma.
-    * Mudar o etilo da barra de rolagem.
+    * Mudar o estilo da barra de rolagem.
 
 ## Back-End 📦📊
