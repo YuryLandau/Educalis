@@ -16,8 +16,10 @@ Projeto ainda em desenvolvimento.
     - Back-end
 
 * Corrigir:
-    * Adaptar para outros navegadores
-    * Imagens nas páginas de acessos
+    * Adaptar para outros navegadores.
+    * Imagens nas páginas de acessos.
+    * Estilizar a página das disciplinas matérias.
+    * Cores dos ícones no dashboard.
 
 
 ## Front-End 💻

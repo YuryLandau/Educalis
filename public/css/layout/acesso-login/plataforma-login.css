@@ -14,16 +14,19 @@ a:visited {
   padding: 0 2.5rem; }
 
 .button {
+  border: none;
   font-family: "Roboto", sans-serif;
   font-size: 1.25rem;
-  transition-duration: 500ms; }
+  outline: none; }
 
 .button:hover {
-  cursor: pointer;
-  transform: scale(1.05); }
+  cursor: pointer; }
 
 .button_acessos {
-  filter: drop-shadow(0px 4px 4px rgba(231, 14, 14, 0.25)); }
+  filter: drop-shadow(0px 4px 4px rgba(231, 14, 14, 0.25));
+  transition-duration: 500ms; }
+  .button_acessos:hover {
+    transform: scale(1.05); }
 
 .verde {
   background-color: #009800; }

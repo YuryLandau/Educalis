@@ -1,0 +1,6 @@
+1 - Tirar as definições de tamanho das sessões
+2 - Responsividade nas páginas de login, criar conta e esqueceu senha
+3 - Consertar estilos na home
+4 - integração com múltiplos navegadores
+
+configurar formulário para enviar e-mail e validar campos

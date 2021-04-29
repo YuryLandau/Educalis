@@ -13,11 +13,14 @@
     position: relative;
     justify-content: space-around;
 
+    p {
+        margin: $paragraph-margin;
+    }
+
     .estrutura_imagens {
         align-items:center;
         display: flex;
         flex-wrap: wrap;
-        padding: 1rem 0;
         justify-content: space-evenly;
 
         a {

@@ -16,7 +16,8 @@ a:visited {
 .button {
   border: none;
   font-family: "Roboto", sans-serif;
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  outline: none; }
 
 .button:hover {
   cursor: pointer; }
@@ -64,8 +65,6 @@ header {
       padding-left: 4rem; }
       header nav ul li {
         text-align: center; }
-        header nav ul li:focus {
-          border: none; }
         header nav ul li a {
           color: #000000;
           font-weight: 500; }
@@ -156,11 +155,12 @@ header {
   padding-top: 2rem;
   position: relative;
   justify-content: space-around; }
+  .estrutura p {
+    margin: 2.5rem 0; }
   .estrutura .estrutura_imagens {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem 0;
     justify-content: space-evenly; }
     .estrutura .estrutura_imagens a {
       height: 30%;
@@ -274,18 +274,23 @@ footer {
       #quem-somos .quem-somos_cards .card {
         margin: 1rem 1rem; } }
 @media screen and (max-width: 900px) {
+  body {
+    overflow-x: hidden; }
+
   #estrutura {
     background-size: 80%;
     height: initial;
-    padding: 2.5rem 8% 70%; } }
+    padding: 2.5rem 8% 70%; }
+    #estrutura p {
+      margin: 0; }
+    #estrutura .estrutura_imagens {
+      margin: 1rem 0; } }
 @media screen and (max-width: 600px) {
-  #estrutura .estrutura_imagens {
-    padding: 1rem 0; }
-    #estrutura .estrutura_imagens a {
-      width: 100%;
-      margin: 1rem 0; }
-      #estrutura .estrutura_imagens a img {
-        width: 100%; } }
+  #estrutura .estrutura_imagens a {
+    width: 100%;
+    margin: 1rem 0; }
+    #estrutura .estrutura_imagens a img {
+      width: 100%; } }
 @media screen and (min-width: 1300px) {
   #estrutura {
     background-size: 57%; } }
