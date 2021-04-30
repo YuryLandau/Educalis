@@ -59,6 +59,40 @@
             </a>
         </section>
 
+        
+        <section id="disciplina_matematica" class="display_itens">
+            <a href="#" class="materia">
+                <h4>Inequações</h4>
+            </a>
+            <a href="#" class="materia">
+                <h4>Equações 1º</h4>
+            </a>
+            <a href="#" class="materia">
+                <h4>Equações 2º</h4>
+            </a>
+            <a href="#" class="materia" onClick="matematicaConjuntos()">
+                <h4>Conjuntos</h4>
+            </a>
+            <a href="#" class="materia">
+                <h4>Geometria</h4>
+            </a>
+            <a href="#" class="materia">
+                <h4>Trigonometria</h4>
+            </a>
+            
+        </section>
+
+        <section id="disciplina_matematica_conjuntos" class="display_itens">
+            <img src="/static/img/disciplinas/matematica/conjuntos.svg" alt="">
+            <p>
+                Teoria dos conjuntos ou de conjuntos é o ramo da matemática que estuda conjuntos, que são coleções de elementos. Embora qualquer tipo de elemento possa ser reunido em um conjunto, a teoria dos conjuntos é aplicada na maioria das vezes a elementos que são relevantes para a matemática. A linguagem da teoria dos conjuntos pode ser usada nas definições de quase todos os elementos matemáticos.
+            </p>
+            <p>
+                O estudo moderno da teoria dos conjuntos foi iniciado por Georg Cantor e Richard Dedekind em 1870. Após a descoberta de paradoxos na teoria ingênua dos conjuntos, numerosos sistemas de axiomas foram propostos no início do século XX, dos quais os axiomas de Zermelo-Fraenkel, com o axioma da escolha, são os mais conhecidos.
+            </p>
+            
+        </section>
+
         <section id="calendario" class="display_itens">
             <table>
                 <tr>
@@ -147,38 +181,6 @@
             
         </section>
 
-        <section id="disciplina_matematica" class="display_itens">
-            <a href="#" class="materia">
-                <h4>Inequações</h4>
-            </a>
-            <a href="#" class="materia">
-                <h4>Equações 1º</h4>
-            </a>
-            <a href="#" class="materia">
-                <h4>Equações 2º</h4>
-            </a>
-            <a href="#" class="materia" onClick="matematicaConjuntos()">
-                <h4>Conjuntos</h4>
-            </a>
-            <a href="#" class="materia">
-                <h4>Geometria</h4>
-            </a>
-            <a href="#" class="materia">
-                <h4>Trigonometria</h4>
-            </a>
-            
-        </section>
-
-        <section id="disciplina_matematica_conjuntos" class="display_itens">
-            <img src="/static/img/disciplinas/matematica/conjuntos.svg" alt="">
-            <p>
-                Teoria dos conjuntos ou de conjuntos é o ramo da matemática que estuda conjuntos, que são coleções de elementos. Embora qualquer tipo de elemento possa ser reunido em um conjunto, a teoria dos conjuntos é aplicada na maioria das vezes a elementos que são relevantes para a matemática. A linguagem da teoria dos conjuntos pode ser usada nas definições de quase todos os elementos matemáticos.
-            </p>
-            <p>
-                O estudo moderno da teoria dos conjuntos foi iniciado por Georg Cantor e Richard Dedekind em 1870. Após a descoberta de paradoxos na teoria ingênua dos conjuntos, numerosos sistemas de axiomas foram propostos no início do século XX, dos quais os axiomas de Zermelo-Fraenkel, com o axioma da escolha, são os mais conhecidos.
-            </p>
-            
-        </section>
 
         <section id="minha_conta" class="display_itens">
                         
@@ -187,7 +189,7 @@
             <p>e-mail: <span id="email"></span></p>
             <p>senha: <span id="senha"></span></p>
 
-            
+            <%- include('parts/Button', { text:'Editar', script:'none' }) %>
 
         </section>
 

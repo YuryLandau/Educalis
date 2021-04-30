@@ -49,8 +49,9 @@ body {
   height: 100%;
   padding-top: 2.5rem;
   position: fixed;
-  width: 12.2rem; }
+  width: 13rem; }
   .menu-lateral nav {
+    align-items: flex-start;
     display: flex;
     height: 30%;
     margin-top: 3rem;
@@ -66,11 +67,11 @@ body {
         .menu-lateral nav ul li a {
           background-repeat: no-repeat;
           background-position-y: center;
-          color: #FFFFFF;
+          color: #004257;
           display: block;
           font-size: 20px;
           font-style: normal;
-          font-weight: normal;
+          font-weight: 700;
           padding: 1rem 0 1rem 3rem; }
       .menu-lateral nav ul li:nth-child(1) a {
         background-image: url("/static/img/icons/profile.svg"); }
@@ -81,6 +82,8 @@ body {
       .menu-lateral nav ul li:hover {
         cursor: pointer;
         background-color: #004257; }
+        .menu-lateral nav ul li:hover a {
+          color: #FFFFFF; }
 
 .display {
   box-sizing: border-box;
@@ -103,6 +106,12 @@ body {
     padding-top: 2.875rem; }
   .display #minha_conta {
     flex-direction: column; }
+    .display #minha_conta * {
+      margin: 1rem; }
+    .display #minha_conta .button {
+      background-color: red;
+      width: 20%;
+      padding: .5rem; }
   .display #disciplinas .disciplinas_materia {
     text-align: center;
     margin-right: 5%;
@@ -141,6 +150,11 @@ body {
   .display #disciplina_matematica_conjuntos p {
     font-size: 1.25rem;
     margin-bottom: 2rem; }
+  .display .disciplinas_materia, .display .materia:hover {
+    transition-duration: 500ms; }
+    .display .disciplinas_materia:hover, .display .materia:hover:hover {
+      transform: scale(1.05);
+      transition-duration: 500ms; }
   .display #professores .professor {
     box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25), inset 0px 2px 5px -1px rgba(0, 0, 0, 0.25);
     border-radius: 10px;

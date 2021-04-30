@@ -103,3 +103,7 @@ function minhaConta(){
     senha.innerText = localStorage.senha;
     h2.innerText = "Minha conta";
 }
+
+function configuracoes(){
+    console.log("Configurando lindamente")
+}

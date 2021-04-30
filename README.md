@@ -7,11 +7,12 @@ Afim de democratizar o acesso à educação, o sistema de ensino da Educalis tra
 Projeto ainda em desenvolvimento.
 
 * O que falta:
-    * Configurar rotas para arquivos estáticos para o deploy
-    * Distribuir modulos 
-    * Expandir fotos -on hover- e on click
-    * Autenticação formulários
-    * Calendário
+    * Configurar rotas para arquivos estáticos para o deploy.
+    * Expandir fotos -on hover- e on click.
+    * Autenticação formulários.
+    * Possibilitar edição dos dados da conta pelo menu "minha conta".
+    * Adicionar modo dark no menu de "configurações".
+    * Calendário.
 
     - Back-end
 

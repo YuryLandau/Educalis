@@ -25,7 +25,16 @@
 
     #minha_conta {
 
+        * {
+            margin: 1rem;
+        }
+
         flex-direction: column;
+        .button {
+            background-color: red;
+            width: 20%;
+            padding: .5rem;
+        }
     }
 
     #disciplinas {     
@@ -86,6 +95,16 @@
         p {
             font-size: 1.25rem;
             margin-bottom: 2rem;
+        }
+    }
+
+    .disciplinas_materia, .materia:hover {
+
+        transition-duration: 500ms;
+        
+        &:hover {
+            transform: scale(1.05);
+            transition-duration: 500ms;
         }
     }
 

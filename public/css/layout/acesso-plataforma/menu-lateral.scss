@@ -7,9 +7,10 @@
         height: 100%;
         padding-top: 2.5rem;
         position: fixed;
-        width: 12.2rem;
+        width: 13rem;
         
         nav {
+            align-items: flex-start;
             display: flex;
             height: 30%;
             margin-top: 3rem;
@@ -27,11 +28,11 @@
                     a {
                         background-repeat: no-repeat;
                         background-position-y: center;
-                        color: $cor-text-button-branco;
+                        color: $cor-text-button-azul;
                         display: block;
                         font-size: 20px;
                         font-style: normal;
-                        font-weight: normal;
+                        font-weight: 700;
                         padding: 1rem 0 1rem 3rem;
                     }
                 }
@@ -55,6 +56,10 @@
                 li:hover {
                     cursor:pointer;
                     background-color: $cor-hover-menu-plataforma-azul;
+
+                    a {
+                        color: $cor-text-button-branco;
+                    }
                 }
                 
             }
