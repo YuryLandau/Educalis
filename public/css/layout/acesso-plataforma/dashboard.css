@@ -101,6 +101,8 @@ body {
     height: 70vh;
     justify-content: flex-start;
     padding-top: 2.875rem; }
+  .display #minha_conta {
+    flex-direction: column; }
   .display #disciplinas .disciplinas_materia {
     text-align: center;
     margin-right: 5%;
