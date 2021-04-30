@@ -1,3 +1,4 @@
+console.log(`Logado com a matrícula:${localStorage.matricula}`);
 const materias = [
     {
         materia: "Geografia",
@@ -67,6 +68,15 @@ function matematica(){
     h2.innerText = "Matemática";
 }
 
+function matematica_conjuntos(){
+    notDisplay();
+    const displayItens = document.getElementById("disciplina_matematica_conjuntos");
+    let h2 = document.querySelector("h2");
+
+    displayItens.style.display = "flex";
+    h2.innerText = "Matemática | Conjuntos";
+}
+
 function professores(){
     notDisplay();
     const displayItens = document.getElementById("professores");
@@ -74,4 +84,13 @@ function professores(){
 
     displayItens.style.display = "flex";
     h2.innerText = "Professores";
+}
+
+function conta(){
+    notDisplay();
+    const displayItens = document.getElementById("conta");
+    let h2 = document.querySelector("h2");
+    
+    displayItens.style.display = "flex";
+    h2.innerText = "Minha conta";
 }

@@ -16,7 +16,8 @@ a:visited {
 .button {
   border: none;
   font-family: "Roboto", sans-serif;
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  outline: none; }
 
 .button:hover {
   cursor: pointer; }
@@ -120,7 +121,9 @@ body {
     background-color: #0098C7; }
   .display #disciplinas .quimica img {
     background-color: #F5DCDC; }
-  .display #professores .professor {
+  .display #disciplina_matematica h4 {
+    font-size: 1.25rem; }
+  .display #disciplina_matematica .materia {
     box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25), inset 0px 2px 5px -1px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     box-sizing: border-box;
@@ -131,9 +134,12 @@ body {
     margin-bottom: 3%;
     padding: 3rem 4.5rem;
     text-align: center; }
-  .display #disciplina_matematica h4 {
-    font-size: 1.25rem; }
-  .display #disciplina_matematica .materia {
+  .display #disciplina_matematica_conjuntos img {
+    margin: 0 auto 3rem; }
+  .display #disciplina_matematica_conjuntos p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem; }
+  .display #professores .professor {
     box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.25), inset 0px 2px 5px -1px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     box-sizing: border-box;

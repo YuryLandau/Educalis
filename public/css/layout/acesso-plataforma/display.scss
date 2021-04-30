@@ -61,20 +61,32 @@
         }
     }
 
-    #professores {
-
-        .professor {
-            @include box-shadow_cards();
-            @include display-align_padrao();  
-        }
-    }
-
     #disciplina_matematica {
         h4 {
             font-size: $font-size-h4;
         }
 
         .materia {
+            @include box-shadow_cards();
+            @include display-align_padrao();  
+        }
+    }
+
+    #disciplina_matematica_conjuntos {
+
+        img {
+            margin: 0 auto 3rem;
+        }
+
+        p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+    }
+
+    #professores {
+
+        .professor {
             @include box-shadow_cards();
             @include display-align_padrao();  
         }
