@@ -28,8 +28,10 @@
                     a {
                         background-repeat: no-repeat;
                         background-position-y: center;
+                        background-position-x: left;
                         color: $cor-text-button-azul;
                         display: block;
+                        filter: brightness(1);
                         font-size: 20px;
                         font-style: normal;
                         font-weight: 700;
@@ -39,7 +41,7 @@
                 
                 li:nth-child(1) {
                     a {
-                        background-image: url('/static/img/icons/profile.svg');
+                        background-image: url('/static/img/icons/livro.svg');
                     }
                 }
                 li:nth-child(2) {
@@ -52,13 +54,23 @@
                         background-image: url('/static/img/icons/boletim.svg');
                     }
                 }
+                li:nth-child(4) {
+                    a {
+                        background-image: url('/static/img/icons/profile.svg');
+                    }
+                }
+                li:nth-child(5) {
+                    a {
+                        background-image: url('/static/img/icons/gear.svg');
+                    }
+                }
                 
                 li:hover {
                     cursor:pointer;
                     background-color: $cor-hover-menu-plataforma-azul;
 
                     a {
-                        color: $cor-text-button-branco;
+                        filter: invert(97%) sepia(77%) saturate(1312%) hue-rotate(171deg) brightness(91%) contrast(90%);
                     }
                 }
                 
