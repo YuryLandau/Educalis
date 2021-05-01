@@ -23,6 +23,16 @@
         padding-top: 2.875rem;   
     }
 
+    .disciplinas_materia, .materia:hover {
+
+        transition-duration: 500ms;
+        
+        &:hover {
+            transform: scale(1.05);
+            transition-duration: 500ms;
+        }
+    }
+
     #minha_conta {
 
         * {
@@ -98,16 +108,6 @@
         }
     }
 
-    .disciplinas_materia, .materia:hover {
-
-        transition-duration: 500ms;
-        
-        &:hover {
-            transform: scale(1.05);
-            transition-duration: 500ms;
-        }
-    }
-
     #professores {
 
         .professor {
@@ -118,7 +118,36 @@
 
     #calendario {
         display: none;
-        border: 1px solid black;
+        overflow-x: hidden;
+        justify-content: flex-end;
+        padding-top: 0;
+
+        h3{
+            font-family: $font-family-h1-calendario;
+            font-size: $font-size-h1-dashboard;
+            margin-right: .4rem;
+        }
+
+        table {
+            border-collapse: collapse;
+            height: 100vh;
+            width: 100%;
+
+            thead {
+                th {
+                    
+                    padding: 1.2rem 0 .8rem;
+                }
+            }
+
+            tr {
+
+                td {
+                    border: 1px solid black;
+                    width: 5rem;
+                }
+            }
+        }
     }
 
     #boletim{

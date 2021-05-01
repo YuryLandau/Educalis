@@ -8,6 +8,7 @@ Projeto ainda em desenvolvimento.
 
 * O que falta:
     * Calendários.
+    * Checar outros meses no calendário.
     * Autenticação formulários.
     * Possibilitar edição dos dados da conta pelo menu "minha conta".
     * Adicionar modo dark no menu de "configurações".
