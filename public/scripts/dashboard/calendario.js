@@ -7,16 +7,20 @@ function calendario(){
     displayItens.style.display = "flex";
     h2.innerText = "Calendário";
 
+    const mesDias = 31;
     const linhas = 5;
     let calendario = document.querySelector("tbody");
-    
-    calendario.innerHTML = "";
 
-    console.log(calendario);
+    calendario.innerHTML = "";
 
     for (let i = 0; i < linhas; i++){
         calendario.appendChild(novaLinhaCalendario(novaData()));
         console.log(i);
+    }
+
+    const celulas = document.querySelectorAll("td");
+    for (let i = 0; i < mesDias; i++){
+        celulas[i].querySelector("h5").innerText = i+1;
     }
 }
 
@@ -45,14 +49,14 @@ function novaLinhaCalendario(data){
 }
 
 function novaCelulaCalendario(dado, classe){
-    const calendarioParagrafo = document.createElement("p");
+    const calendarioTarefa = document.createElement("a");
     const td = document.createElement('td');
     const celulaH5 = document.createElement('h5');
     
     celulaH5.innerText = dado.dia;
     td.appendChild(celulaH5);
-    calendarioParagrafo.innerText = " ";
-    td.appendChild(calendarioParagrafo);
+    calendarioTarefa.innerText = " ";
+    td.appendChild(calendarioTarefa);
     td.classList.add(classe);
 
     return td;

@@ -122,6 +122,10 @@
         justify-content: flex-end;
         padding-top: 0;
 
+        a {
+            vertical-align: baseline;
+        }
+
         h3{
             font-family: $font-family-h1-calendario;
             font-size: $font-size-h1-dashboard;
@@ -130,23 +134,36 @@
 
         table {
             border-collapse: collapse;
+            border-spacing: 0;
             height: 100vh;
             width: 100%;
-
+            
             thead {
                 th {
-                    
+                    font-family: $font-family-calendario;
+                    font-size: $font-size-header-calendario;
                     padding: 1.2rem 0 .8rem;
                 }
             }
+            
+            tbody {
 
-            tr {
-
-                td {
-                    border: 1px solid black;
-                    width: 5rem;
+                background-color: $cor-fundo-calendario;
+                
+                tr {
+    
+                    td {
+                        border: 1px solid $cor-borda-data-calendario;
+                        font-family: $font-family-calendario;
+                        font-size: $font-size-data-calendario;
+                        text-align: right;
+                        vertical-align: top;
+                        width: 5rem;
+                        padding: .4rem;
+                    }
                 }
             }
+
         }
     }
 
